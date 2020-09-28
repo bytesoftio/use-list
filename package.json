@@ -17,7 +17,7 @@
     "test": "jest",
     "lint": "tsc --noEmit",
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
-    "docs": "doctoc readme.md && typedoc src/index.ts --out docs --hideGenerator --tsconfig tsconfig.build.json --mode library --theme minimal",
+    "docs": "doctoc readme.md && docster src/index.ts --out docs --tsconfig tsconfig.build.json",
     "release": "yarn run build && np --no-release-draft"
   },
   "dependencies": {
@@ -42,7 +42,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "ts-jest": "^25.2.1",
-    "typedoc": "^0.17.0-3",
+    "@bytesoftio/docster": "^1.0.0",
     "typescript": "^3.8.3"
   }
 }
