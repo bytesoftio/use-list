@@ -1,6 +1,6 @@
 {
   "name": "@bytesoftio/use-list",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Maxim Kott",
   "license": "MIT",
   "main": "dist/index.js",
@@ -29,6 +29,7 @@
     "react-dom": "^16.13.0"
   },
   "devDependencies": {
+    "@bytesoftio/docster": "^1.0.0",
     "@types/enzyme": "^3.10.5",
     "@types/jest": "^25.1.4",
     "@types/lodash": "^4.14.149",
@@ -42,7 +43,6 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "ts-jest": "^25.2.1",
-    "@bytesoftio/docster": "^1.0.0",
     "typescript": "^3.8.3"
   }
 }
